@@ -101,7 +101,7 @@ export default function ContactMeFormCard() {
   }
 
   return (
-    <Card className="w-auto p-10 md:w-1/2 lg:w-1/3">
+    <Card className="w-auto p-8 lg:w-1/2">
       <p className="text-xl font-extrabold">Get in touch</p>
       <p className="my-2 leading-5">
         Send me a message below! If you have any questions, I'll get back to you
