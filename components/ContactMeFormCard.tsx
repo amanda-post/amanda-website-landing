@@ -101,11 +101,11 @@ export default function ContactMeFormCard() {
   }
 
   return (
-    <Card className="w-auto p-8 lg:w-1/2">
+    <Card className="w-auto bg-fuchsia-200 p-8">
       <p className="text-xl font-extrabold">Get in touch</p>
-      <p className="my-2 leading-5">
-        Send me a message below! If you have any questions, I'll get back to you
-        ASAP.
+      <p className="my-2 leading-7">
+        This custom form sends a message to my email with your information and
+        message. Say hello!
       </p>
 
       <Form {...form}>
@@ -119,7 +119,7 @@ export default function ContactMeFormCard() {
                 <FormControl>
                   <Input
                     placeholder="Your Name"
-                    className="placeholder:italic placeholder:text-gray-400"
+                    className="border-indigo-600 bg-fuchsia-50 placeholder:italic placeholder:text-indigo-300"
                     {...field}
                     disabled={submitted}
                   />
@@ -140,7 +140,7 @@ export default function ContactMeFormCard() {
                 <FormControl>
                   <Input
                     placeholder="example@gmail.com"
-                    className="placeholder:italic placeholder:text-gray-400"
+                    className="border-indigo-600 bg-fuchsia-50 placeholder:italic placeholder:text-indigo-300"
                     {...field}
                     disabled={submitted}
                   />
@@ -161,7 +161,7 @@ export default function ContactMeFormCard() {
                 <FormControl>
                   <Textarea
                     placeholder="I've got the perfect position for you!"
-                    className="placeholder:italic placeholder:text-gray-400"
+                    className="border-indigo-600 bg-fuchsia-50 placeholder:italic placeholder:text-indigo-300"
                     {...field}
                     disabled={submitted}
                   />
@@ -184,7 +184,7 @@ export default function ContactMeFormCard() {
                 <FormControl>
                   <Input
                     placeholder="Are you a robot?"
-                    className="placeholder:italic placeholder:text-gray-400"
+                    className="border-indigo-600 bg-fuchsia-50 placeholder:italic placeholder:text-indigo-300"
                     {...field}
                     disabled={submitted}
                   />
